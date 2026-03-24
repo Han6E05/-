@@ -174,6 +174,7 @@ python etl_postgres.py
 ## 模块三：Docker 完整环境
 
 **文件：** `docker-compose.yaml`
+<img width="1223" height="862" alt="image" src="https://github.com/user-attachments/assets/38a858e2-f270-4b33-b37c-b8fdb3aaddb0" />
 
 一条命令启动完整运维环境。
 
@@ -215,6 +216,7 @@ Grafana： http://localhost:3000   账号/密码：admin / admin
 **文件：** `dags/etl_pipeline.py`
 
 将 ETL 流程封装为 Airflow DAG，支持失败重试和状态监控。
+<img width="1912" height="1025" alt="image" src="https://github.com/user-attachments/assets/2145abdd-612b-4789-a95e-3c36c294e16e" />
 
 **DAG 结构：**
 
@@ -253,6 +255,7 @@ Starting attempt 1 of 4   ← 1次正常 + 3次重试 = 最多4次
 ## 模块五：Grafana 可视化看板
 
 连接 PostgreSQL，将 ETL 写入的数据实时可视化。
+<img width="1916" height="1025" alt="image" src="https://github.com/user-attachments/assets/2a82bf44-c20c-45ef-8795-1f15bce7e420" />
 
 **配置数据源：**
 
